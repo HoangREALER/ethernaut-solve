@@ -7,4 +7,7 @@ optimizer_runs  = 1000                                  # The number of optimize
 fs_permissions  = [{ access = "read", path = "./"}]     # Gives permission to read files for compilation objects.
 evm_version = "shanghai"
 
+[rpc_endpoints]
+local = 'http://localhost:8545'
+
 # See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options
